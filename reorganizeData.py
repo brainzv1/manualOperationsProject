@@ -16,7 +16,13 @@ action_numbers = {
     "Tug_out": 12,
     "Turning_in": 13,
     "Turning_out": 14,
-    "Open": 15
+    "Open": 15,
+    "Click": 16,
+    "Piping": 17,
+    "Cover": 18,
+    "Uncover": 19,
+    "Lift": 20,
+    "Unlift": 21
 }
 
 #Counts number of raw frames after chosen % to keep
