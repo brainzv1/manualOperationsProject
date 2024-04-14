@@ -1,5 +1,9 @@
 Note:It looks better on code editor.
 
+The data:
+We’ve built an easy to use google drive folder to let those interested in the project a comfortable way to download the data into the project and run train for themself – here is the link:
+https://drive.google.com/drive/folders/18_jo7MJhl6SVYaC9dXAN4p5ZIPyd0rQ1?usp=sharing
+
 How to run
 To execute the code, we created a conda environment named “openmmlab” (see ref)
 Make sure you have 3.8.19 and torch 1.9.0+cu111. Run in terminal: pip install mmcv==2.1.0 and pip install mmengine==0.10.3.
@@ -7,7 +11,7 @@ mmaction2 should be installed from source, make sure the .py files we wrote (the
 open a directory named “DataSet” in the “mmaction2” directory and inside it put the data under the directory “Data”. You can use the following picture for reference:
 
 
-Last but not least it is very important that before you run train you change the code of the tsn file: Yosef+Yuval_Project\mmaction2\configs\recognition\tsn\tsn_imagenet-pretrained-r50_8xb32-1x1x3-100e_kinetics400-rgb.py
+Last but not least it is important that before you run train you change the code of the tsn file: manualOperationsProject\mmaction2\configs\recognition\tsn\tsn_imagenet-pretrained-r50_8xb32-1x1x3-100e_kinetics400-rgb.py
 Entering the version from our source code will allow you to train and presumably achieve similar outcomes to what we had.
 To process the data prior to training we created the filesToRun.py file which activates a series of the files we wrote ourselves to organize data.
 If you followed all the instructions as follow you are supposed to be able to run the command in your terminal
