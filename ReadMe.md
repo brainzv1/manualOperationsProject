@@ -1,3 +1,4 @@
+Note:It looks better on code editor.
 
 How to run
 To execute the code, we created a conda environment named “openmmlab” (see ref)
@@ -16,7 +17,7 @@ Notice: the train process is heavy on the GPU, and it uses a lot of resources fr
 You can also configure the number of epochs or other variables.
 git repisotry for our code https://github.com/brainzv1/manualOperationsProject/edit/main/ReadMe.md
 If there any problem here is the result of pip list using our conda env
-Note:It looks better on code editor.
+
 (openmmlab) PS C:\AAAWork\Yosef+Yuval_Project\mmaction2> pip list
 Package                 Version      Editable project location
 ----------------------- ------------ ----------------------------------------
